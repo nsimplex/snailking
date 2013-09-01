@@ -1,7 +1,7 @@
 -----
 --[[ Snail King ]] VERSION="prealpha"
 --
--- Last updated: 2013-08-28
+-- Last updated: 2013-09-01
 -----
 
 --[[

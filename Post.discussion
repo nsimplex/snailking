@@ -1,0 +1,78 @@
+Snail King mod.
+
+[B]Configuration[/B]:
+[SPOILER]
+Just edit the file rc.lua in the snailking folder. Every option's effect is explained in the file. Knowledge of Lua is not required, as the file uses a simple "OPTION = VALUE" format.
+
+Sample configuration file:
+[SPOILER]
+[CODE]
+------
+---- [Configurations]
+----
+---- Modify at will.
+---- Remove the "--" in front of the options you wish to change.
+----
+---- Any line in this file can be safely deleted.
+---- Feel free to clean it up by erasing option lines you don't intend on changing.
+------
+
+
+----
+---- All measures of time are in seconds.
+----
+
+--STRINGS.NAMES.SNAILKING = "Snail King"
+--STRINGS.CHARACTERS.GENERIC.DESCRIBE.SNAILKING = "It's a... thing. A big one."
+
+----[[
+--- Which build to use. Options are "snailking_build" and "snailking_death_build",
+--- the latter being based on the "beefalo_shaved_build".
+--- 
+--- I don't think there's any point changing this anymore.
+----]]
+--SNAILKING_BUILD = "snailking_build"
+
+---[[
+--- How many frames to play of the "hair growth" anim on death.
+---
+--- The full animation is 17 frames long.
+---]]
+--SNAILKING_HAIR_GROWTH_FRAMES = 12
+
+---[[
+--- Speed of the death animation, relative to its base speed.
+---]]
+--DEATH_ANIM_SPEED = 0.2
+
+
+--- Scaling of the Snail King, relative to a Beefalo's size.
+--SCALE_X = 2
+--SCALE_Y = SCALE_X
+--SCALE_Z = SCALE_X
+
+
+--- Time between consecutive animations during testing.
+--TESTING_ANIM_DELAY = 1
+
+--- List of animations to test.
+--TESTING_ANIM_LIST = {"idle_loop", "shake", "bellow", "mating_taunt1", "mating_taunt2", "graze_loop", "alert_pre", "alert_idle", "atk_pre", "atk", "death", "hair_growth_pre", "hair_growth", "shave"}
+
+[/CODE]
+[/SPOILER]
+[/SPOILER]
+
+[B]Disclaimer[/B]:
+[SPOILER]
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+[/SPOILER]
+
+[URL="http://forums.kleientertainment.com/downloads.php?do=download&downloadid=1"][IMG]http://forums.kleientertainment.com/images/download.png[/IMG][/URL]

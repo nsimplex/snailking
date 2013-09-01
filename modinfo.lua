@@ -1,9 +1,3 @@
------
---[[ Snail King ]] VERSION="prealpha"
---
--- Last updated: 2013-09-01
------
-
 --[[
 Copyright (C) 2013  simplex
 
@@ -20,14 +14,21 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-The images and animation files are not covered under the terms
-of this license.
+The file  is based on textures from Klei Entertainment's
+Don't Starve and is not covered under the terms of this license.
 ]]--
 
-TheMod = GLOBAL.require(modinfo.name:lower():gsub("%s", "") .. '.wicker.init')(env)
+name = "Snail King"
+version = "prealpha"
+author = "simplex"
 
-PrefabFiles = {
-	"snailking",
-}
+description = [=[Development version of the Snail King (a.k.a. Lou Carcolh) mod.
+Art by lifemare and MilleniumCount.
+Code by simplex.
+Concept by Symage, Lord_Battal, lifemare, MilleniumCount and simplex.]=]
 
-TheMod:Run("main")
+forumthread = "26065"
+
+api_version = 3
+icon = nil
+icon_atlas = nil
