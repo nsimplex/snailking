@@ -244,7 +244,7 @@ local states=
 		end,
 
 		onexit = function(inst)
-			inst.AnimState:SetBuild("snailking_death_build")
+			inst.AnimState:SetBuild(TheMod:GetConfig("SNAILKING_DEATH_BUILD"))
 		end,
 		
 		events = {

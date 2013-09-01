@@ -42,7 +42,7 @@ FILES+=$(PREFAB_SCRIPTS) $(COMPONENT_SCRIPTS) $(STATEGRAPH_SCRIPTS) $(BRAIN_SCRI
 
 LICENSE_FILES:=AUTHORS.txt COPYING.txt
 IMAGE_FILES:=
-ANIM_FILES:=anim/snailking_build.zip anim/snailking_death_build.zip
+ANIM_FILES:=anim/snailking_build.zip anim/snailking_death01_build.zip anim/snailking_death02_build.zip
 
 FILES+=$(LICENSE_FILES) $(IMAGE_FILES) $(ANIM_FILES)
 

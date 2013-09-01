@@ -7,7 +7,8 @@ module( ..., require(_modname .. '.booter') )
 local assets=
 {
 	Asset("ANIM", "anim/snailking_build.zip"),
-	Asset("ANIM", "anim/snailking_death_build.zip"),
+	Asset("ANIM", "anim/snailking_death01_build.zip"),
+	Asset("ANIM", "anim/snailking_death02_build.zip"),
 
 	Asset("ANIM", "anim/beefalo_basic.zip"),
 	Asset("ANIM", "anim/beefalo_actions.zip"),

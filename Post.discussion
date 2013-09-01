@@ -25,13 +25,16 @@ Sample configuration file:
 --STRINGS.NAMES.SNAILKING = "Snail King"
 --STRINGS.CHARACTERS.GENERIC.DESCRIBE.SNAILKING = "It's a... thing. A big one."
 
-----[[
---- Which build to use. Options are "snailking_build" and "snailking_death_build",
---- the latter being based on the "beefalo_shaved_build".
---- 
---- I don't think there's any point changing this anymore.
-----]]
+---[[
+--- The builds in place are:
+--- "snailking_build", "snailking_death01_build" and "snailking_death02_build"
+---]]
+
+--- Which base build to use.
 --SNAILKING_BUILD = "snailking_build"
+
+--- Which death build to use.
+--SNAILKING_DEATH_BUILD = "snailking_death01_build"
 
 ---[[
 --- How many frames to play of the "hair growth" anim on death.
