@@ -29,7 +29,8 @@ local Pred = wickerrequire 'lib.predicates'
 
 
 SNAILKING_BUILD = Pred.IsString
-SNAILKING_DEATH_BUILD = Pred.IsString
+SNAILKING_DEATH01_BUILD = Pred.IsString
+SNAILKING_DEATH02_BUILD = Pred.IsString
 
 SNAILKING_HAIR_GROWTH_FRAMES = Pred.IsNonNegativeNumber
 

@@ -213,6 +213,8 @@ local states=
 		onenter = function(inst)
 			inst.Physics:Stop()
 
+			inst.AnimState:SetBuild(TheMod:GetConfig("SNAILKING_DEATH01_BUILD"))
+
 			if death_anim_speed then
 				inst.AnimState:SetDeltaTimeMultiplier(death_anim_speed)
 				inst.components.health.nofadeout = true
@@ -244,7 +246,7 @@ local states=
 		end,
 
 		onexit = function(inst)
-			inst.AnimState:SetBuild(TheMod:GetConfig("SNAILKING_DEATH_BUILD"))
+			inst.AnimState:SetBuild(TheMod:GetConfig("SNAILKING_DEATH02_BUILD"))
 		end,
 		
 		events = {

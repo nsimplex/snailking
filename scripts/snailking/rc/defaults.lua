@@ -21,8 +21,11 @@ return function()
 	-- Which base build to use.
 	SNAILKING_BUILD = "snailking_build"
 	
-	-- Which death build to use.
-	SNAILKING_DEATH_BUILD = "snailking_death01_build"
+	-- Which build to use for the hair growth sequence.
+	SNAILKING_DEATH01_BUILD = "snailking_death01_build"
+	
+	-- Which build to use for the actual death animation.
+	SNAILKING_DEATH02_BUILD = "snailking_death02_build"
 	
 	--[[
 	-- How many frames to play of the "hair growth" anim on death.
